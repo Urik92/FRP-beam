@@ -25,7 +25,7 @@ with st.sidebar:
 if (selected == 'FRP beam with stirrup prediction system'):
     
     # page title
-    st.title('shear prediction of FRP beam with stirrup  using Machine learning')
+    st.title('Shear prediction of FRP beam with stirrup  using ML')
     
     st.write('')
     st.write('')
@@ -33,7 +33,7 @@ if (selected == 'FRP beam with stirrup prediction system'):
     col1,col2,col3 = st.columns(3)
     
     with col1:
-        p1=st.slider("Effective width of the Beam (mm)",135.000,914.000)
+        p1=st.slider(" Width of the Beam (mm)",135.000,914.000)
          
     with col2:
         p2=st.slider("Effective Depth of the Beam (mm)",170.0,937.0)
@@ -86,14 +86,14 @@ if (selected == 'FRP beam with stirrup prediction system'):
 if (selected == 'FRP beam without stirrup prediction system'):
     
     # page title
-    st.title('shear prediction of FRP beam without stirrup  using Machine learning')
+    st.title('Shear prediction of FRP beam without stirrup  using ML')
     st.write('')
     st.write('')
     
     col1,col2,col3 = st.columns(3)
     
     with col1:
-        p1=st.slider("Effective width of the Beam (mm)",89.0,1000.0)
+        p1=st.slider(" Width of the Beam (mm)",89.0,1000.0)
         
     with col2:
         p2=st.slider("Effective Depth of the Beam (mm)",73.0,1111.0)
@@ -125,7 +125,8 @@ if (selected == 'FRP beam without stirrup prediction system'):
         st.balloons()
         st.success(" shear strength of FRP beam is {:.2f} KN".format(pred[0]))
         
-st.title('By Kirubel Girma','Advisor: Tesfaye Alemu (Ph.D)')
+st.write('By: Kirubel Girma')    
+st.write("Advisor: Tesfaye Alemu (Ph.D)")
 
     
     
