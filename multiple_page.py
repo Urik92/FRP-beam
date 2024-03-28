@@ -125,7 +125,7 @@ if (selected == 'FRP beam without stirrup prediction system'):
         st.balloons()
         st.success(" shear strength of FRP beam is {:.2f} KN".format(pred[0]))
         
-st.write('By: Kirubel 1Girma')    
+st.write('By: Kirubel Girma')    
 st.write("Advisor: Tesfaye Alemu (Ph.D)")
 
     
